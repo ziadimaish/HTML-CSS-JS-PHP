@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{margin-top: 20px;}
+        
+        h2{font-size: 75px;
+        text-shadow: 4px 10px 4px black;}
+
+        img{
+           display:block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 50%;
+           border: solid black;
+           border-radius: 25px;
+           padding: 5px;
+           margin-bottom: 5px;
+            
+        }
+
+        p{ text-align: justify;}
+
+        .section1{
+            font-size:22px;
+            padding: 30px;
+            height: 720px;
+            width: 44%;
+            background-image: linear-gradient(to top,#94bbe9,#dd0e0e, #94bbe9);
+            color:white;
+            display: block;
+            float: left;
+        }
+        
+       .section1>img:hover{
+            transform: rotate(360deg);
+            transition-duration:1200ms ; 
+            border: solid white;
+            border-radius: 25px;       
+
+        }
+
+        .section1>p:hover{
+            background-image:radial-gradient(#3f5efb,#fc466b) ;
+            transform:scale(1.2);
+        }
+
+        .section1>ul>li:hover{
+          
+            font-size: 40px;
+            text-decoration: underline;
+            transform: skew(-15deg);
+           
+        }
+
+
+        .section2{
+            font-size:22px;
+            padding: 30px;
+            height: 720px;
+            width: 44%;
+            background-image:radial-gradient(#3f5efb,#fc466b);
+            color:white;
+            float:right;
+        }
+        
+        .section2>p:hover{
+            transform:scale(1.2);
+            background-image: linear-gradient(to top,#94bbe9,#dd0e0e, #94bbe9);
+        }
+
+        .section2>h2:hover{
+            opacity: 40%;
+        }
+
+        input[type="text"]:focus{
+            width:100%;
+        }
+
+        input[type="email"]:focus{
+            width:100%;
+        }
+
+        .section2>form{
+            padding: 10px;
+            border: black solid; 
+            border-radius:25px;
+        }
+
+        
+        
+
+    </style>
+</head>
+<body>
+<section class="section1">
+
+    <img src="FIFA.png">
+    
+    <p>The 2022 FIFA World Cup, also known as Qatar 2022, is an international association football tournament contested by the men's national teams of FIFA's member associations, and the 22nd FIFA World Cup.
+        The event is taking place in Oatar from 20 November to 18 December 2022, This is the first World Cup to be held in the Arab world, and the second World Cup held entirely in Asia after the 2002 tournament in South Korea and Japan.</p>
+  
+    <label>FIFA World Cup Championships:</label>
+  
+        <ul>
+            <li>The 2022 FIFA World Cup, Qatar</li>
+            <li>The 2018 FIFA World Cup, Russia</li>
+            <li>The 2014 FIFA World Cup, Brazil</li>
+        </ul>
+    </section>
+
+
+
+    <section class="section2">
+
+        <h2>The State of Qatar</h2>
+
+        <p>The State of Oatar, is a country in Western Asia. It occupies the small Qatar Peninsula on the northeastern coast of the Arabian Peninsula in the Middle East; it shares its sole land border with Saudi Arabia to the south, with the rest of its territory surrounded by the Persian Gulf. The Gulf of Bahrain, an inlet of the Persian Gulf, separates Qatar from nearby Bahrain. The capital is Doha, home to over 80% of the country's inhabitants, and the land area is mostly made up of flat, low-lying desert.</p>
+
+        <form method="post">
+            <input name="fname" type="text" placeholder="Full Name">
+            <br>
+            <br>
+            <input name="email" type="email" placeholder="Email">
+            <br>
+            <br>
+            <input name="reg" type="submit" value="Registration">
+        </form>
+    </section>
+</body>
+
+    
+</html>
